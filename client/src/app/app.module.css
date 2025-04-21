@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+
+  --color-midnight: #202124;
+  --color-twilight: #3a3b3c;
+  --color-whisper: #9AA0A6;
+  --color-white: #FFFFFF;
+
+  --surface-primary: var(--color-midnight);
+  --surface-focus: var(--color-whisper);
+  --surface-secondary: var(--color-twilight);
+
+  --font-primary: var(--color-whisper);
+  --font-secondary: var(--color-white);
+
+  --spacing-small: 4px;
+  --spacing-medium: 8px;
+  --spacing-large: 16px;
+
+  --border-radius-default: 4px;
+  --border-radius-tiny: 2px;
+
+  background-color: var(--surface-primary);
+  color: var(--font-primary) !important;
+}
+
+.app {
+  padding: 10px;
+}

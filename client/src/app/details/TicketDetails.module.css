@@ -1,0 +1,6 @@
+.container {
+    h1 {
+        color: var(--font-secondary);
+        margin: var(--sizing-large) 0px;
+    }
+}
